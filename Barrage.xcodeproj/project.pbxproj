@@ -15,6 +15,7 @@
 		F55866D01F29DF8F0055A3E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F55866CE1F29DF8F0055A3E3 /* LaunchScreen.storyboard */; };
 		F55866DB1F29DF8F0055A3E3 /* BarrageTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F55866DA1F29DF8F0055A3E3 /* BarrageTests.m */; };
 		F55866E61F29DF8F0055A3E3 /* BarrageUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F55866E51F29DF8F0055A3E3 /* BarrageUITests.m */; };
+		F55866F51F29DFC40055A3E3 /* BarrageView.m in Sources */ = {isa = PBXBuildFile; fileRef = F55866F41F29DFC40055A3E3 /* BarrageView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		F55866E11F29DF8F0055A3E3 /* BarrageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = BarrageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F55866E51F29DF8F0055A3E3 /* BarrageUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BarrageUITests.m; sourceTree = "<group>"; };
 		F55866E71F29DF8F0055A3E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F55866F31F29DFC40055A3E3 /* BarrageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BarrageView.h; sourceTree = "<group>"; };
+		F55866F41F29DFC40055A3E3 /* BarrageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BarrageView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -105,6 +108,8 @@
 				F55866C41F29DF8F0055A3E3 /* AppDelegate.m */,
 				F55866C61F29DF8F0055A3E3 /* ViewController.h */,
 				F55866C71F29DF8F0055A3E3 /* ViewController.m */,
+				F55866F31F29DFC40055A3E3 /* BarrageView.h */,
+				F55866F41F29DFC40055A3E3 /* BarrageView.m */,
 				F55866C91F29DF8F0055A3E3 /* Main.storyboard */,
 				F55866CC1F29DF8F0055A3E3 /* Assets.xcassets */,
 				F55866CE1F29DF8F0055A3E3 /* LaunchScreen.storyboard */,
@@ -207,6 +212,7 @@
 				TargetAttributes = {
 					F55866BC1F29DF8F0055A3E3 = {
 						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 59VQA7756F;
 						ProvisioningStyle = Automatic;
 					};
 					F55866D51F29DF8F0055A3E3 = {
@@ -276,6 +282,7 @@
 				F55866C81F29DF8F0055A3E3 /* ViewController.m in Sources */,
 				F55866C51F29DF8F0055A3E3 /* AppDelegate.m in Sources */,
 				F55866C21F29DF8F0055A3E3 /* main.m in Sources */,
+				F55866F51F29DFC40055A3E3 /* BarrageView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,6 +431,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 59VQA7756F;
 				INFOPLIST_FILE = Barrage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nyl.Barrage;
@@ -435,6 +443,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = 59VQA7756F;
 				INFOPLIST_FILE = Barrage/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.nyl.Barrage;
